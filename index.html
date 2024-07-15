@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBLESS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo à JOBLESS</h1>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#imagens">Imagens</a>
+    <a href="#tabela">Tabela</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="container">
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Esta é uma página de exemplo de demonstração.</p>
+        <p>A seguir, veja algumas informações adicionais sobre mim:</p>
+        <ul>
+            <li>Sou iniciante e estou a procura de emprego.</li>
+            <li>Sei as liguagens PYTHON, JAVASCRIPT, estou aberto a aprender mais.</li>
+            <li>Sou Jr. procuro oportunidades.</li>
+        </ul>
+    </section>
+
+    <section id="imagens">
+        <h2>Imagens</h2>
+        <img src="dia-programador-ingenieria-unir-mexico.jpg" alt="Imagem de Exemplo">
+        <p>Esta é uma imagem de exemplo usando a tag <code>&lt;img&gt;</code>.</p>
+    </section>
+
+    <section id="tabela">
+        <h2>Tabela</h2>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>28</td>
+                <td>Belo Horizonte</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="/enviar" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>Criado por LaraThaline</p>
+</footer>
+
+</body>
+</html>
+
